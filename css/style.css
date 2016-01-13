@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+}
+
+ul, ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-top: 0;
+}
+
+/* sass goes here */
+/*
+header {
+	padding: 25vw 5vw 5vw;
+	border-bottom: 5px solid $slatedark;
+	background: {
+		color: $slate;
+	}
+}
+article {
+	padding: 10vw 5vw;
+}
+header {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+h1 {
+	position: relative;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	span {
+		font-family: "Industry Demi";
+		line-height: 1;
+		color: $white;
+		text-shadow: 3px 3px 0 $slatedark;
+	}
+	span.num {
+		position: absolute;
+		left: 50%;
+		font-size: 25vw;
+		font-family: 'UniversCondensed';
+		transform: translate3d(-50%, -93%, 0);
+	}
+	div {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	span.min, span.of, span.code {
+		font-size: 4vw;
+	}
+	span.min {
+		flex: 2;
+	}
+	span.of {
+		align-self: flex-start;
+		flex: 1;
+	}
+	span.code {
+		align-self: flex-end;
+		flex: 1;
+	}
+}
+
+#jan13 {
+	
+}
+*/
+body {
+  font-family: helvetica, arial, sans-serif;
+  line-height: 1.5;
+}
+
+h1, h2 {
+  margin: 0;
+}
+
+nav {
+  padding: 20px 0;
+}
+nav ul {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+nav li {
+  display: inline-block;
+}
+nav li:first-child {
+  margin-right: auto;
+}
+nav li a {
+  padding: 0 20px;
+}
+
+#hero {
+  padding: 50px 20px;
+  background-image: linear-gradient(rgba(23, 23, 23, 0.75), rgba(23, 23, 23, 0.75)), url(https://i.ytimg.com/vi/aIWxJImer3g/maxresdefault.jpg);
+  background-size: cover;
+  color: white;
+}
+#hero h1 {
+  font-family: helvetica;
+}
+#hero h2 {
+  font-size: 75%;
+  font-weight: 200;
+  margin-bottom: 20px;
+}

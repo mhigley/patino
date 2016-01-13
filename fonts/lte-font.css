@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'UniversLT-LightUltraCondensed';
+  src: url('lte50877.eot'); /* IE9 Compat Modes */
+  src: url('lte50877.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('lte50877.woff') format('woff'), /* Modern Browsers */
+       url('lte50877.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('lte50877.svg#c2c631b282b08c87e323f9b7272a7bc0') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  200;
+}
+

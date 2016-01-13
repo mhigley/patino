@@ -1,0 +1,115 @@
+@import "variables";
+@import "reset";
+//@import "fonts";
+//@import "fontawesome";
+
+/* sass goes here */
+body {
+	
+}
+$grad: hsla(0, 0%, 9%, .75);
+$white: hsla(0, 0%, 95%, 1);
+$slate: hsla(200, 20%, 25%, 1);
+$slatelite: lighten($slate, 10);
+$slatedark: darken($slate, 10);
+
+/*
+header {
+	padding: 25vw 5vw 5vw;
+	border-bottom: 5px solid $slatedark;
+	background: {
+		color: $slate;
+	}
+}
+article {
+	padding: 10vw 5vw;
+}
+header {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+h1 {
+	position: relative;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	span {
+		font-family: "Industry Demi";
+		line-height: 1;
+		color: $white;
+		text-shadow: 3px 3px 0 $slatedark;
+	}
+	span.num {
+		position: absolute;
+		left: 50%;
+		font-size: 25vw;
+		font-family: 'UniversCondensed';
+		transform: translate3d(-50%, -93%, 0);
+	}
+	div {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	span.min, span.of, span.code {
+		font-size: 4vw;
+	}
+	span.min {
+		flex: 2;
+	}
+	span.of {
+		align-self: flex-start;
+		flex: 1;
+	}
+	span.code {
+		align-self: flex-end;
+		flex: 1;
+	}
+}
+
+#jan13 {
+	
+}
+*/
+
+body {
+	font-family: helvetica, arial, sans-serif;
+	line-height: 1.5;
+}
+
+h1, h2 {
+	margin: 0;
+}
+
+nav {
+	padding: 20px 0;
+	ul {display: flex;}
+	li {
+		display: inline-block;
+		&:first-child{margin-right: auto;}
+		a {padding: 0 20px;}
+	}
+}
+#hero {
+	padding: 50px 20px;
+	background: {
+		image: linear-gradient($grad, $grad), url(https://i.ytimg.com/vi/aIWxJImer3g/maxresdefault.jpg);
+		size: cover;
+	}
+	color: white;
+	h1 {
+		font-family: helvetica;
+
+	}
+	h2 {
+		font-size: 75%;
+		font-weight: 200;
+		margin-bottom: 20px;
+	}
+}
+
+
+
+
+
+
