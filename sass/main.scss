@@ -1,0 +1,21 @@
+#firstdiv {
+	height: 85px;
+	width: 100%;
+	background-color: hsl(200, 30%, 70%);
+}
+#seconddiv {
+	height: 250px;
+	width: 100%;
+	background-color: hsl(75, 95%, 75%);
+}
+#thirddiv {
+	width: 100%;
+	height: 300px;
+	background-color: red;
+}
+.nest {
+	width: calc(100% / 3);
+	height: 300px;
+	background-color: hsla(220, 80%, 50%, .5);
+	float: left;
+}

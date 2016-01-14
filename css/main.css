@@ -1,0 +1,24 @@
+#firstdiv {
+  height: 85px;
+  width: 100%;
+  background-color: #9cbac9;
+}
+
+#seconddiv {
+  height: 250px;
+  width: 100%;
+  background-color: #defc83;
+}
+
+#thirddiv {
+  width: 100%;
+  height: 300px;
+  background-color: red;
+}
+
+.nest {
+  width: calc(100% / 3);
+  height: 300px;
+  background-color: rgba(26, 94, 230, 0.5);
+  float: left;
+}
