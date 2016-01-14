@@ -1,6 +1,6 @@
 @import "variables";
 @import "reset";
-//@import "fonts";
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
 //@import "fontawesome";
 
 /* sass goes here */
@@ -91,7 +91,7 @@ nav {
 	}
 }
 #hero {
-	padding: 50px 20px;
+	padding: 100px 50px;
 	background: {
 		image: linear-gradient($grad, $grad), url(https://i.ytimg.com/vi/aIWxJImer3g/maxresdefault.jpg);
 		size: cover;
@@ -99,12 +99,43 @@ nav {
 	color: white;
 	h1 {
 		font-family: helvetica;
-
 	}
 	h2 {
-		font-size: 75%;
+		width: 50%;
+		font-size: 85%;
 		font-weight: 200;
 		margin-bottom: 20px;
+	}
+}
+#promo {
+	padding: 100px 50px;
+	display: flex;
+	justify-content: space-between;
+	div {
+		width: 30%;
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		i {
+			font-size: 1.5em;
+			border: 1px solid black;
+			border-radius: 100%;
+			padding: 20px;
+		}
+		h2 {
+			font-size: 100%;
+			line-height: 1.25;
+			margin: 20px 0;
+		}
+		p {
+			text-align: left;
+		}
+		a {
+			display: block;
+			text-align: right;
+			margin-top: auto;
+		}
+
 	}
 }
 

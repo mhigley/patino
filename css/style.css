@@ -1,3 +1,4 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
 body {
   margin: 0;
 }
@@ -104,7 +105,7 @@ nav li a {
 }
 
 #hero {
-  padding: 50px 20px;
+  padding: 100px 50px;
   background-image: linear-gradient(rgba(23, 23, 23, 0.75), rgba(23, 23, 23, 0.75)), url(https://i.ytimg.com/vi/aIWxJImer3g/maxresdefault.jpg);
   background-size: cover;
   color: white;
@@ -113,7 +114,47 @@ nav li a {
   font-family: helvetica;
 }
 #hero h2 {
-  font-size: 75%;
+  width: 50%;
+  font-size: 85%;
   font-weight: 200;
   margin-bottom: 20px;
+}
+
+#promo {
+  padding: 100px 50px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+#promo div {
+  width: 30%;
+  text-align: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+#promo div i {
+  font-size: 1.5em;
+  border: 1px solid black;
+  border-radius: 100%;
+  padding: 20px;
+}
+#promo div h2 {
+  font-size: 100%;
+  line-height: 1.25;
+  margin: 20px 0;
+}
+#promo div p {
+  text-align: left;
+}
+#promo div a {
+  display: block;
+  text-align: right;
+  margin-top: auto;
 }
