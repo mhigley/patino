@@ -112,10 +112,11 @@ nav li a {
 }
 #hero h1 {
   font-family: helvetica;
+  font-size: 200%;
 }
 #hero h2 {
-  width: 50%;
-  font-size: 85%;
+  width: 25%;
+  font-size: 100%;
   font-weight: 200;
   margin-bottom: 20px;
 }
@@ -146,7 +147,7 @@ nav li a {
   padding: 20px;
 }
 #promo div h2 {
-  font-size: 100%;
+  font-size: 120%;
   line-height: 1.25;
   margin: 20px 0;
 }
